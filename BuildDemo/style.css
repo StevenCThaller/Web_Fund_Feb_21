@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* outline: 1px dotted red; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    margin: 3px 0px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    border-bottom: 1px solid lightgray;
+}
+
+    #header-logo {
+        width: 250px;
+        height: auto;
+    }
+
+    #header-options {
+        width: 425px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+        
+
+        .dropdown {
+            width: 20px; 
+            height: auto;
+        }
+
+        #cart {
+            width: 20px;
+            height: auto;
+        }
+
+        #checkout-button {
+            background-color: #f6f7f8;
+            padding: 10px;
+            border-radius: 22px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            border: 0px;
+        }
+
+#container {
+    width: 1200px;
+    margin: 0px auto;
+    padding-top: 50px;
+}
+
+.store-cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0px 50px 0px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 60px;
+}
+
+.card {
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 2px lightgray;
+    margin-right: 15px;
+    margin-bottom: 60px;
+}
+
+.small-card {
+    width: 350px;
+    padding: 15px;
+    align-items: center;
+}
+
+.large-card {
+    position: relative;
+    display: flex;
+    height: 240px;
+    width: 380px;
+}
+
+.store-logo {
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    margin-right: 15px;
+    width: 60px;
+}
+
+.large-card-info {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+    width: 360px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    bottom: 0;
+}
+
+
+
+.large-card-background {
+    width: 100%;
+    border-radius: 15px;
+    position: absolute;
+}
+
+
+
+h3 {
+    font-size: 16pt;
+}
+
+.no-bullet {
+    list-style-type: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.lighter {
+    color: gray; 
+}
+
+#fullcards {
+    justify-content: space-between;
+}
+
+#walmart-card {
+    background-image: url('./images//walmart-card.jpg')
+}
+#vallarta-card {
+    background-image: url('./images//vallarta-card.jpg')
+}
+#aldi-card {
+    background-image: url('./images//aldi-card.jpg')
+}
+
+.blue {
+    font-size: 11pt;
+    color: #5a96d2;
+}
