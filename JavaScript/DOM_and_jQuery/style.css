@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+#container {
+    width: 970px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: greenyellow;
+    background-color: palevioletred;
+}
+
+h3 {
+    color: turquoise;
+    background-color: orange;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section {
+    width: 40%;
+    background-color: rebeccapurple;
+}
+
+p {
+    color: yellow;
+}
+
+
+.fixHideousness {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+}
