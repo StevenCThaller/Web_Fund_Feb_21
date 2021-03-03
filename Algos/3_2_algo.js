@@ -2,6 +2,9 @@
 // Push a value into an array
 // Given: var arr = [1,2,3,4], push in the value 5 and console.log the modified array [1,2,3,4,5]
 // Notice how with the built in push method, the value is always added to the back
+var arr = [1,2,3,4]; // there's our array
+arr.push(5); // and now we've pushed 5 into the array at the end
+console.log(arr); // if we print the array, we'll see 5 is at the end
 
 // CHALLENGE 2
 // Given an array and a value, push the new value to the FRONT of the array -- remember 
