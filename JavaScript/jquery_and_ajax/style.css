@@ -1,0 +1,41 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#pokemon {
+    color: yellow;
+    text-shadow: -1px -1px 0 blue, 
+                1px -1px 0 blue,
+                -1px 1px 0 blue,
+                1px 1px 0 blue;
+}
+
+#search-count::before{
+    content: "Number of Times Searched: "
+}
+
+#pokePic {
+    width: 500px;
+    height: auto;
+}
+
+#dexNum {
+    color: blue;
+    text-shadow: -1px -1px 0 yellow, 
+                1px -1px 0 yellow,
+                -1px 1px 0 yellow,
+                1px 1px 0 yellow;
+}
+
+.stat {
+    font-weight: bold;
+}
+
+.statNum {
+    font-weight: lighter;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
